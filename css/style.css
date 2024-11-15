@@ -1,0 +1,118 @@
+body {
+    background-color: #F7ECDE;
+    padding: 0;
+    margin: 0;
+}
+
+.red-color{
+    background-color: red;
+}
+
+.green-color{
+    background-color: green;
+}
+
+.yellow-color{
+    background-color: yellow;
+}
+a {
+    padding: 0;
+    margin: 0;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.btn-color {
+    background-color: #d1512d;
+    transition-duration: .5s;
+    border: none;
+}
+
+.btn-sumbit:hover {
+
+    background-color: #a03315;
+
+}
+
+.btn-visit {
+    background-color: #9eb23b;
+    transition-duration: .5s;
+    border: none;
+}
+
+
+.btn-visit:hover {
+    background-color: #8a9e23;
+    cursor: pointer;
+}
+
+
+.btn-delete {
+    background-color: #eb1d36;
+    transition-duration: .5s;
+    border: none;
+}
+
+
+.btn-delete:hover {
+    background-color: #d30820;
+
+}
+
+
+
+h1 {
+    position: relative;
+    font-family: "Pacifico";
+    color: black;
+    width: fit-content;
+    overflow: hidden;
+    font-size: 50px;
+}
+
+
+
+h1::before {
+    content: "";
+    position: absolute;
+    width: 280px;
+    height: 50%;
+    left: 50%; 
+    top: 75%; 
+    background-color: #fec260;
+    z-index: -1; 
+    transform: translate(-50%, -50%); 
+    transition-duration: .3s;
+}
+
+h1:hover::before{
+    height: 100%;
+}
+
+
+h3{
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    /* text-align: center; */
+    background-clip: text;
+    color: transparent;
+}
+
+.border-shape {
+    border: 1px dashed black;
+    /* Dashed border style */
+}
+
+.icon-circle{
+    width: 25px;
+    height: 25px;
+    border:  2px solid red;
+    color: red;
+    /* border-radius:; */
+}
